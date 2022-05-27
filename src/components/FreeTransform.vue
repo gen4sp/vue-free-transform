@@ -179,7 +179,7 @@
 
       handleRotation(event) {
         event.stopPropagation();
-
+        event.preventDefault();
         const drag = rotate({
           startX: event.pageX,
           startY: event.pageY,
